@@ -1,0 +1,56 @@
+{
+  "name": "custom-preset-builder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dipeshkoirala21/custom-ckeditor-preset-builder.git"
+  },
+  "keywords": [
+    "ckeditor",
+    "presets",
+    "builder"
+  ],
+  "author": "dipeshkoirala21",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dipeshkoirala21/custom-ckeditor-preset-builder/issues"
+  },
+  "homepage": "https://github.com/dipeshkoirala21/custom-ckeditor-preset-builder#readme",
+  "dependencies": {
+    "@ckeditor/ckeditor5-adapter-ckfinder": "^34.1.0",
+    "@ckeditor/ckeditor5-alignment": "^34.1.0",
+    "@ckeditor/ckeditor5-basic-styles": "^34.1.0",
+    "@ckeditor/ckeditor5-block-quote": "^34.1.0",
+    "@ckeditor/ckeditor5-dev-utils": "^30.3.0",
+    "@ckeditor/ckeditor5-editor-classic": "^34.1.0",
+    "@ckeditor/ckeditor5-essentials": "^34.1.0",
+    "@ckeditor/ckeditor5-font": "^34.1.0",
+    "@ckeditor/ckeditor5-heading": "^34.1.0",
+    "@ckeditor/ckeditor5-highlight": "^34.1.0",
+    "@ckeditor/ckeditor5-horizontal-line": "^34.1.0",
+    "@ckeditor/ckeditor5-html-support": "^34.1.0",
+    "@ckeditor/ckeditor5-image": "^34.1.0",
+    "@ckeditor/ckeditor5-indent": "^34.1.0",
+    "@ckeditor/ckeditor5-link": "^34.1.0",
+    "@ckeditor/ckeditor5-list": "^34.1.0",
+    "@ckeditor/ckeditor5-paragraph": "^34.1.0",
+    "@ckeditor/ckeditor5-remove-format": "^34.1.0",
+    "@ckeditor/ckeditor5-source-editing": "^34.1.0",
+    "@ckeditor/ckeditor5-style": "^34.1.0",
+    "@ckeditor/ckeditor5-table": "^34.1.0",
+    "@ckeditor/ckeditor5-theme-lark": "^34.1.0",
+    "@ckeditor/ckeditor5-upload": "^34.1.0",
+    "css-loader": "^5.2.7",
+    "postcss-loader": "^4.3.0",
+    "raw-loader": "^4.0.2",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
